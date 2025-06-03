@@ -1,0 +1,155 @@
+.top-bar {
+  position: fixed; /* fixa no topo da tela */
+  top: 0;
+  left: 0;
+  width: 100%; /* ocupa toda a largura */
+  background-color: #ffeb3b; /* amarelo vibrante */
+  color: #222; /* texto escuro para contraste */
+  display: flex; /* flexbox para alinhar */
+  justify-content: space-between; /* logo esquerda, nav direita */
+  align-items: center; /* centraliza vertical */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 1000; /* fica por cima */
+  font-family: "Arial Black", sans-serif;
+  font-size: 12px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.top-nav {
+  margin-right: 30px; /* <<< AQUI o ajuste pra afastar da direita */
+}
+
+.top-nav a {
+  color: #222; /* links escuros */
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.top-nav a:hover {
+  color: #f57f17; /* tom laranja-escuro no hover */
+}
+
+/* Estilos gerais */
+
+body {
+  background-color: #000000; /* fundo preto */
+  color: yellow;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 80px 20px 20px 20px; /* espaço topo pra barra fixa */
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  color: orange;
+}
+
+img {
+  margin-top: 15px;
+}
+
+footer {
+  background-color: #000080;
+  color: yellow;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+button{
+font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 15px; /* aumenta o espaço interno */
+    font-size: 18px; /* aumenta o tamanho da letra */
+}
+.login-form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza vertical */
+  align-items: center; /* Centraliza horizontal */
+  padding-top: 100px; /* espaço pro header fixo */
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #ffeb3b;
+  color: #222;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #fdd835;
+}
+.titulo-ingresso {
+  font-size: 32px;
+  color: orange;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imagem-centralizada {
+  text-align: center;
+}
+
+   h1 {
+            text-align: center;
+            color: yellow;
+            margin-top: 30px;
+        }
+
+        .item-img {
+            display: block;
+            margin: auto;
+        }
+
+        .item-nome {
+            display: block;
+            color: yellow;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 5px;
+        }

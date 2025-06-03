@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingressos - ETCINE</title>
+  <link rel="stylesheet" href="cssdoETCINE.css">
+</head>
+
+<body>
+
+  <header class="top-bar">
+    <div class="logo">
+      <img src="IMAGEMETCINE.jpeg" alt="ETCINE" height="60" width="60">
+      ETCINE
+    </div>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="ingresso.html">Ingressos</a>
+      <a href="contato.html">Consumíveis</a>
+    </nav>
+  </header>
+
+  <br><br><br><br>
+
+  <h1 class="titulo-ingresso">Compra de Ingressos</h1>
+
+  <br><br>
+
+  <div style="display: flex; gap: 20px; align-items: flex-start;">
+
+    <div>
+      <img src="catinga.jpg" alt="Foto do filme do Coringa" width="225" height="300">
+      <details>
+        <summary>Ver trailer</summary>
+        <iframe width="200" height="150" src="https://www.youtube.com/embed/zAGVQLHvwOY" title="Coringa Trailer" frameborder="0" allowfullscreen></iframe>
+      </details>
+    </div>
+
+    <div>
+      <h4 style="color: aliceblue;">
+        Para sempre sozinho na multidão, o comediante fracassado Arthur Fleck busca conexão enquanto caminha pelas ruas de Gotham City. 
+        Arthur usa duas máscaras: a que pinta para seu trabalho diário como palhaço e a que projeta numa tentativa inútil de se sentir parte do mundo ao seu redor. 
+        Isolado, intimidado e desconsiderado pela sociedade, Fleck inicia uma lenta descida à loucura enquanto se transforma no gênio do crime conhecido como Coringa.
+      </h4>
+
+      <br><br>
+
+      <h3>Comprar Ingressos</h3>
+
+      <form action="compraFinalizada.html" method="post">
+        <table border="1">
+          <tr>
+            <th>Tipo</th>
+            <th>Quantidade</th>
+          </tr>
+          <tr>
+            <td>🎟️ Inteira: R$ 24,00</td>
+            <td>
+              <input type="number" name="inteira" min="0" max="10" value="0">
+            </td>
+          </tr>
+          <tr>
+            <td>🎟️ Meia: R$ 12,00</td>
+            <td>
+              <input type="number" name="meia" min="0" max="10" value="0">
+            </td>
+          </tr>
+        </table>
+
+        <br>
+      </form>
+      <a href="pagina4.html">
+  <span style="background: #ffeb3b; padding: 15px 30px; border-radius: 8px;"> Comprar ingresso</span>
+</a>
+    </div>
+
+  </div>
+
+  <br><br>
+
+  <div class="imagem-centralizada">
+    <img src="imagem de acentos.jpg" alt="Assentos do cinema">
+  </div>
+
+  <footer>
+   <p>© 2025 ETCINE. Direitos reservados (mais ou menos) aos autores Eduardo H. vitor, Lucas Markes, Fabricio de Sousa, Pedro Andrade.</p>
+  </footer>
+
+</body>
+</html>

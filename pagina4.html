@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ETCINE Consumíveis</title>
+    <link rel="stylesheet" href="cssdoETCINE.css" />
+</head>
+
+<body>
+
+    <header class="top-bar">
+        <div class="logo">
+            <img src="IMAGEMETCINE.jpeg" width="60" height="60" alt="etcine imagem"> ETCINE
+        </div>
+        <nav class="top-nav">
+            <a href="trabalhocinema.html">Home</a>
+            <a href="pagina2.html">Login</a>
+            <a href="ingressos.html">Ingressos</a>
+            <a href="pagina4.html">Consumíveis</a>
+        </nav>
+    </header>
+
+    <br><br><br><br><br><br>
+
+    <main>
+
+        <!-- TÍTULO ADICIONADO -->
+        <h1>Consumíveis</h1>
+
+        <table border="2" style="margin: auto; text-align: center; color: yellow;">
+            <form action="#" method="post">
+                <tr>
+                    <th>Item</th>
+                    <th>Opção</th>
+                    <th>Quantidade</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="imagem de pipoca.jpg" alt="imagem de pipoca" width="60" height="60" class="item-img">
+                        <span class="item-nome">Pipoca</span>
+                    </td>
+                    <td>
+                        <select name="pipoca_tamanho">
+                            <option value="pequena">Pequena</option>
+                            <option value="media">Média</option>
+                            <option value="grande">Grande</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" name="pipoca_qtd" min="1" max="10" value="1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="imagem de refri.webp" alt="imagem de refrigerante" width="60" height="60" class="item-img">
+                        <span class="item-nome">Refrigerante</span>
+                    </td>
+                    <td>
+                        <select name="refri_tamanho">
+                            <option value="pequeno">Pequeno</option>
+                            <option value="medio">Médio</option>
+                            <option value="grande">Grande</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" name="refri_qtd" min="1" max="10" value="1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="imagem de fini.jpg" alt="imagem de fini" width="60" height="60" class="item-img">
+                        <span class="item-nome">Doces</span>
+                    </td>
+                    <td>---</td>
+                    <td>
+                        <input type="number" name="doces_qtd" min="1" max="10" value="1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <a href="trabalhocinema.html">
+                            <span style="background: #ffeb3b; padding: 15px 30px; border-radius: 8px;">Confirmar Pedido</span>
+                        </a>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </main>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <p>© 2025 ETCINE. Direitos reservados (mais ou menos) aos autores Eduardo H., Vitor, Lucas Markes, Fabricio de Sousa, Pedro Andrade.</p>
+    </footer>
+
+</body>
+
+</html>
